@@ -17,6 +17,10 @@ a, li {
   text-decoration: none;
 }
 
+a {
+  color: #794aa8;
+}
+
 body {
   background-color: white;
   overflow-x: hidden;
@@ -160,9 +164,9 @@ header img {
   max-width: 380px;
   margin-bottom: 80px;
   color: #794aa8;
-  letter-spacing: 27px;
   line-height: 1.7;
   font-size: 32px;
+  text-transform: uppercase;
 }
 
 .landing .landing-img {
@@ -276,26 +280,26 @@ header img {
   margin-bottom: 40px;
 }
 
-.about-friend-app {
+.about-friend-app, .how-it-works {
   width: 85%;
   margin: auto;
   padding: 40px 10px;
 }
 
-.about-friend-app h2 {
+.about-friend-app h2, .how-it-works h2 {
   letter-spacing: 10px;
 }
 
-.about-friend-app h3 {
+.about-friend-app h3, .how-it-works h3 {
   font-weight: 500;
 }
 
-.about-friend-app p, .about-friend-app li {
+.about-friend-app p, .about-friend-app li, .how-it-works p, .how-it-works li {
   font-weight: 300;
   line-height: 2;
 }
 
-.about-friend-app a {
+.about-friend-app a, .how-it-works a {
   color: #794aa8;
   padding-left: 5px;
   text-decoration: underline;
