@@ -224,18 +224,11 @@ header img {
 }
 
 .friend-app-1 img, .friend-app-2 img {
-  -webkit-transform: skewY(20deg);
-          transform: skewY(20deg);
   -webkit-box-shadow: 10px 25px 49px 9px #e6d6e6;
           box-shadow: 10px 25px 49px 9px #e6d6e6;
   margin-top: 50px;
   margin-bottom: 40px;
   padding-right: -100px;
-}
-
-.friend-app-2 img {
-  -webkit-transform: skewY(-20deg);
-          transform: skewY(-20deg);
 }
 
 .friend-app-1, .friend-app-2 {
@@ -318,6 +311,33 @@ footer {
 @media screen and (max-width: 700px) {
   .menu-img {
     display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .app-download {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 40px 5px;
+  }
+  .app-cta {
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  header {
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+  }
+  header img {
+    padding-left: 8px !important;
+  }
+  .menu-icon {
+    padding-right: 8px;
   }
 }
 /*# sourceMappingURL=stylesheet.css.map */
